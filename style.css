@@ -18,6 +18,9 @@ h2 {
 p {
     margin-top: 60px;
     margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
 }
 
 
@@ -26,15 +29,18 @@ p {
     src: url(typo2.ttf);
 }
 
+
 body h1 {
     font-family: myfont2;
     font-size: 70px;
 }
 
+
 body h2 {
     font-family: myfont2;
     font-size: 50px;
 }
+
 
 body h3 {
     font-family: myfont2;
@@ -42,7 +48,8 @@ body h3 {
     text-align: center;
 }
 
-img{
-    width: 100%
+
+img {
     height: 100%;
+    width: 100%;
 }
