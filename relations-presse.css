@@ -3,7 +3,7 @@ body {
 }
 
 .w3-sidebar {
-    background-color: #eeeaeae1;
+    background-color: #ecd7e0;
     width: 120px;
 }
 
@@ -14,7 +14,7 @@ main {
 
 @font-face {
     font-family: myfont2;
-    src: url(Font/typo2.otf);
+    src: url(font/typo2.otf);
 }
 
 
@@ -25,6 +25,7 @@ aside {
 }
 
 p {
+    margin-top: 15px;
     margin-left: 40px;
     margin-right: 40px;
     text-align: justify;
@@ -33,15 +34,43 @@ p {
 h1 {
     font-family: myfont2;
     font-size: 35px;
+    margin-bottom:70px;
 }
 
 h2 {
     font-size: 25px;
+    margin-top: 50px;
+    margin-bottom:20px;
+    margin-left: 40px;
 }
 
 h3 {
     font-size: 25px;
+    margin-top: 50px;
+    margin-bottom:20px;
+    margin-left: 40px;
 }
+
+h4 {
+    font-size: 25px;
+    margin-top: 50px;
+    margin-bottom:20px;
+    margin-left: 40px;
+}
+
+h5 {
+    font-size: 25px;
+    margin-top: 50px;
+    margin-bottom:20px;
+    margin-left: 40px;
+}
+
+h6 {
+    font-size: 15px;
+    margin-top: 70px;
+    margin-bottom:30px;
+}
+
 
 .w3container w3-center {
     background-color: #eeeaeae1;
