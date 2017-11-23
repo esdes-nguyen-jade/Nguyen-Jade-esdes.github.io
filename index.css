@@ -1,0 +1,41 @@
+body { 
+    margin: 0;
+}
+
+.w3-sidebar {
+    background-color: #ecd7e0;
+    width: 120px;
+}
+
+main {
+    margin-left: 100px;
+}
+
+
+@font-face {
+    font-family: myfont2;
+    src: url(font/typo2.otf);
+}
+
+
+aside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p {
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: justify;
+}
+
+h2 {
+    font-family: myfont2;
+    font-size: 30px;
+}
+
+
+.w3container w3-center {
+    background-color: #ffffffe1;
+}
