@@ -67,3 +67,12 @@ p {
     flex-direction: column;
     margin-left: 80px;
 }
+
+#apropos p {
+font-size: 17px;
+text-align: justify;
+margin-top: 25px;
+margin-left: 35px;
+margin-right: 35px;
+color: rgb(74, 101, 136)
+}
