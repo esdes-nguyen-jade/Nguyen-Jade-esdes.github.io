@@ -1,3 +1,8 @@
+@font-face {
+    font-family: myfont2;
+    src: url(font/typo2.otf);
+}
+
 body { 
     margin: 0;
 }
@@ -7,23 +12,15 @@ body {
     width: 120px;
 }
 
-main {
-    margin-left: 100px;
-}
-
-
-@font-face {
-    font-family: myfont2;
-    src: url(font/typo2.otf);
-}
-
-
 aside {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
+main {
+    margin-left: 100px;
+}
 
 h1 {
     font-family: myfont2;
@@ -48,7 +45,7 @@ p {
 }
 
 #formation h2 {
-    margin-top: 80px;   
+    margin-top: 190px;   
     margin-left: 100px; 
     font-size: 30px;
 }
@@ -74,5 +71,5 @@ text-align: justify;
 margin-top: 25px;
 margin-left: 35px;
 margin-right: 35px;
-color: rgb(74, 101, 136)
+color: rgb(57, 117, 131)
 }
