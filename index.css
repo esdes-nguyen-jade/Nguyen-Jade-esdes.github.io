@@ -8,7 +8,7 @@ body {
 }
 
 .w3-sidebar {
-    background-color: #ecd7e0;
+    background-color: #ddf1ef;
     width: 120px;
 }
 
@@ -72,4 +72,8 @@ margin-top: 25px;
 margin-left: 35px;
 margin-right: 35px;
 color: rgb(57, 117, 131)
+}
+
+#contact {
+    background-color: rgba(240, 207, 224, 0.13)
 }
