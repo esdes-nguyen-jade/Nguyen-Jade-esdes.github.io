@@ -39,14 +39,7 @@ p {
 }
 
 
-#formation ul {
-    margin-top: 20px;   
-    margin-left: 100px; 
-}
-
 #formation h2 {
-    margin-top: 190px;   
-    margin-left: 100px; 
     font-size: 30px;
 }
 
@@ -74,6 +67,3 @@ margin-right: 35px;
 color: rgb(57, 117, 131)
 }
 
-#contact {
-    background-color: rgba(240, 207, 224, 0.13)
-}
