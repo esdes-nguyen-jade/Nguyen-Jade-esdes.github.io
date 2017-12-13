@@ -35,7 +35,7 @@ p {
 }
 
 .w3container w3-center {
-    background-color: #ffffffe1;
+    background-color: white;
 }
 
 
@@ -59,11 +59,11 @@ p {
 }
 
 #apropos p {
-font-size: 17px;
-text-align: justify;
-margin-top: 25px;
-margin-left: 35px;
-margin-right: 35px;
-color: rgb(57, 117, 131)
+    font-size: 17px;
+    text-align: justify;
+    margin-top: 25px;
+    margin-left: 35px;
+    margin-right: 35px;
+    color: rgb(57, 117, 131)
 }
 
