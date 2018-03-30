@@ -101,7 +101,6 @@ article {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    filter: grayscale(1);
     z-index: -1;
     transition: all 1s ease-in-out;
 }
@@ -119,17 +118,17 @@ article h2{
 }
 
 
-#article1 {background-image: url(img/pantone.jpg);}
+#article1 {background-color: #B1606D;}
 
-#article2{background-image: url(img/pantone1.jpg);}
+#article2 {background-color: #DE8275;}
 
-#article3 {background-image: url(img/pantone.jpg);}
+#article3 {background-color: rgb(238, 139, 144);}
 
-#article4 {background-image: url(img/black.jpg);}
+#article4 {background-color: #FF6C54;}
 
-#article5 {background-image: url(img/ok.jpg);}
+#article5 {background-color: #FF8A53;}
 
-#article6 {background-image: url(img/brille.jpeg);}
+#article6 {background-color: #FEAB86;}
 
 
 h2{
