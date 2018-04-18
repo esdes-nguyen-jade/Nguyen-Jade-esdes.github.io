@@ -6,7 +6,7 @@ Mon portfolio s'adresse aux recruteurs en communication, événementiel et relat
 
 #HEADER
 ![header](/)
-Le header de mon site contient une side barre composée de plusieurs boutons renvoyant aux différentes pages du site.
+Le header de mon site contient une barre de navigation composée de plusieurs boutons renvoyant aux différentes pages du site.
 
 
 #PAGE D'ACCUEIL - Jade NGUYEN
