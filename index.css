@@ -35,15 +35,6 @@ header{
     width: 0%;
 }
 
-section{
-    height: 100%;
-    padding: 60px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin:0px;
-}
 
 #home{
     background: linear-gradient(to bottom right,#ed4264, #ffedbc);
@@ -71,29 +62,17 @@ section{
     stroke-width: 1px;
 }
 
-h1{
-    color: white;
-    background:rgba(255, 150, 31, 0.712);
-    border: solid 0.5px rgb(255, 255, 255);
-    text-transform: uppercase;
-    font-family: myfont;
-    font-size: 40px;
-    padding: 20px;
-    transition: background-color 1.7s ease-in-out;
-}
-
-h1:hover{
-    color: white;
-    background: rgb(255, 111, 15);
-}
 
 #apropos{
+    height: 100%;
     display: flex;
     flex-direction: column;
     margin-top: 0px;
 }
 
+
 #competences{
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -110,30 +89,6 @@ h1:hover{
     justify-content: center;
 }
 
-article {
-    position: relative;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    padding: 5px;
-    width: 20%;
-    margin: 3%;
-    filter: grayscale(0);
-    transition: all 0.3s ease-in-out;
-}
-
-#experiences{
-    display: flex;
-    flex-direction: column;
-    margin-top: 0px;
-}
-
-#contact{
-    display: flex;
-    flex-direction: column;
-    margin-top: 0px;
-}
-
 section {
     background: white;
     min-height: 100%;
@@ -141,10 +96,23 @@ section {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    align-content: center;
     flex-wrap: wrap;
-    margin: 0px;
+    margin: O;
 }
 
+article {
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+    margin: 3%;
+    filter: grayscale(0);
+    transition: all 0.3s ease-in-out;
+    margin: 20px;
+    margin-top:20%;
+}
 
 .bg-img {
     position: absolute;
@@ -164,12 +132,6 @@ article:hover .bg-img{
     transform: scale(1.1);
 }
 
-article h3{
-    color: rgb(17, 16, 17);
-    background-color: #f5f4f2d3;
-    padding: 5px;
-}
-
 
 #article1 {background-color: #B1606D;}
 
@@ -184,6 +146,35 @@ article h3{
 #article6 {background-color: #FEAB86;}
 
 
+#experiences{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+}
+
+#contact{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+}
+
+h1{
+    color: white;
+    background:rgba(255, 150, 31, 0.712);
+    border: solid 0.5px rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-family: myfont;
+    font-size: 40px;
+    padding: 20px;
+    transition: background-color 1.7s ease-in-out;
+}
+
+h1:hover{
+    color: white;
+    background: rgb(255, 111, 15);
+}
 h2{
     color:white;
     background: rgba(255, 254, 254, 0.342);
@@ -206,13 +197,14 @@ p{
     font-size: 20px;
     color: black;
     text-align: justify;
-    margin-top: 0%;
+    margin-left: 50px;
+    margin-right:50px;
 }
 
 .square {
     height: 45px;
     width: 45px;
-    background-image: url(Images/nous.jpg);
+    background-image: url(img/alpaga.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
