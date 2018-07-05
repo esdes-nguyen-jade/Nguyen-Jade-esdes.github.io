@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
 
 @font-face {
     font-family: myfont;
@@ -12,13 +12,32 @@ body {
     margin:0px;
 }
 
-header {
+header{
+    position:fixed;
+    top:0;
+    width:100%;
+    height:60px;
+    font-family: myfont;
+    font-size: 1.2rem;
+    color:rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.637);
+    z-index: 1;
+}
+
+/* The progress bar (scroll indicator) */
+.progress-bar {
+    height: 8px;
+    background: #444644;
+    width: 0%;
+}
+
+section{
     height: 100%;
-    background: linear-gradient(to bottom right,#ed4264, #ffedbc);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    padding: 60px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -26,46 +45,93 @@ header {
     margin:0px;
 }
 
-header p{
-    color:black;
-    font-family: myfont;
-    background: rgba(255, 255, 255, 0.459);
-    padding: 10px;
-    padding-left: 30%;
-    padding-right: 30%;
-    margin-bottom: 60px;
-}
-
-header p:hover{
-    color: rgb(2, 2, 2);
-    background: rgba(250, 250, 248, 0.87);
-    transition: background-color 1.5s ease-in-out;
-    
-}
-
-header img{
+#home{
+    background: linear-gradient(to bottom right,#ed4264, #ffedbc);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin:0;
+    height: 100%;
+    padding: 60px;
     display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:0px;
 }
 
+#home svg{
+    height:100%;
+    width:100%;
+}
+#home path {
+    fill:transparent;
+    stroke:black;
+    stroke-width: 1px;
+}
 
 h1{
-    background: rgba(124, 124, 122, 0.692);
-    color:white;
+    color: white;
+    background:rgba(255, 150, 31, 0.712);
     border: solid 0.5px rgb(255, 255, 255);
-    letter-spacing: 6px;
     text-transform: uppercase;
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 90px;
-    padding: 10px;
-    transition: background-color 1.5s ease-in-out;
+    font-family: myfont;
+    font-size: 40px;
+    padding: 20px;
+    transition: background-color 1.7s ease-in-out;
 }
 
-
 h1:hover{
-    color: rgb(12, 12, 12);
-    background: rgba(163, 163, 161, 0.568);
+    color: white;
+    background: rgb(255, 111, 15);
+}
+
+#apropos{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+}
+
+#competences{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    margin:10px;
+}
+
+.test{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+
+article {
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 5px;
+    width: 20%;
+    margin: 3%;
+    filter: grayscale(0);
+    transition: all 0.3s ease-in-out;
+}
+
+#experiences{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+}
+
+#contact{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
 }
 
 section {
@@ -75,22 +141,10 @@ section {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    align-content: center;
     flex-wrap: wrap;
-    margin: O;
+    margin: 0px;
 }
 
-article {
-    position: relative;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    padding: 5px;
-    width: 25%;
-    margin: 3%;
-    filter: grayscale(0);
-    transition: all 0.3s ease-in-out;
-}
 
 .bg-img {
     position: absolute;
@@ -110,8 +164,7 @@ article:hover .bg-img{
     transform: scale(1.1);
 }
 
-
-article h2{
+article h3{
     color: rgb(17, 16, 17);
     background-color: #f5f4f2d3;
     padding: 5px;
@@ -133,30 +186,70 @@ article h2{
 
 h2{
     color:white;
-    font-family: 'Open Sans Condensed', sans-serif;
+    background: rgba(255, 254, 254, 0.342);
+    font-family: 'Quicksand', sans-serif;
     font-size: 20px;
+    width: 300px;
     text-transform: uppercase;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-
-
-p{
-    font-family: 'Open Sans Condensed', sans-serif;
+h3{
+    font-family: 'Quicksand', sans-serif;
     font-size: 20px;
-    color:white;
 }
 
-header path {
-    fill:transparent;
-    stroke:black;
+p{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    color: black;
+    text-align: justify;
+    margin-top: 0%;
+}
+
+.square {
+    height: 45px;
+    width: 45px;
+    background-image: url(Images/nous.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    animation: first 5s linear infinite alternate;
+    margin: 3px;
+    padding: 3px;
+    color: white;
+    font-size: 7px;
+    }
+@keyframes first{
+    0%{
+        background-color:rgb(228, 113, 37);
+        transform: translateY(0);
+    }
+    100%{
+        background-color: #ffffff;
+        transform: translateY(-500px);
+    }
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+footer{
+    background: #ed4264;
+    text-align: center;
+    color: white;
+    margin:0px;
 }
 
 
 /* For Mobiles Only */
 @media only screen and (max-width: 600px) {
+
     section{
         flex-direction: column;
     }

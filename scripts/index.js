@@ -1,5 +1,6 @@
+
 var lineDrawing = anime({
-    targets: 'path',
+    targets: 'svg path',
     strokeDashoffset: [anime.setDashoffset, 0],
     easing: 'easeInOutSine',
     duration: 1500,
@@ -7,6 +8,4 @@ var lineDrawing = anime({
     direction: 'alternate',
     loop: true
   });
-
-
 
