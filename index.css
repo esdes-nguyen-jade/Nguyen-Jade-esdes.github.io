@@ -98,7 +98,7 @@ section {
     align-items: center;
     align-content: center;
     flex-wrap: wrap;
-    margin: O;
+    margin: 0;
 }
 
 article {
